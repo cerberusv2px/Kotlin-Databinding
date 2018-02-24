@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
@@ -14,8 +13,7 @@
             type="com.evolve.kotlindatabinding.MainPresenter" />
     </data>
 
-    <android.support.constraint.ConstraintLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context="com.evolve.kotlindatabinding.MainActivity">
@@ -56,8 +54,8 @@
             android:id="@+id/btn_change"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Chnage"
             android:onClick="@{() -> presenter.onShowData(temp)}"
+            android:text="@string/change"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
