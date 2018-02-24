@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Kotlin Databinding</string>
+    <string name="change">Change</string>
 </resources>

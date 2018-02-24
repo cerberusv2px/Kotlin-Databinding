@@ -7,7 +7,6 @@ import android.content.Context
  */
 class MainPresenter(val context: Context, val view: MainContract.View) : MainContract.Presenter {
     override fun onShowData(temperature: Temperature) {
-        temperature.notifyChange()
         view.showData(temperature)
     }
 }

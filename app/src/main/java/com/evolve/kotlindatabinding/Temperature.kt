@@ -7,7 +7,7 @@ import android.databinding.Bindable
  * Created by sujin on 2/23/18.
  */
 
-data class Temperature(var _location: String, var _celsius: String) : BaseObservable() {
+data class Temperature(private var _location: String, private var _celsius: String) : BaseObservable() {
 
     @Bindable
     var location: String = _location
