@@ -1,4 +1,4 @@
-package com.evolve.kotlindatabinding
+package com.evolve.kotlindatabinding.simpledatabinding
 
 /**
  * Created by sujin on 2/23/18.

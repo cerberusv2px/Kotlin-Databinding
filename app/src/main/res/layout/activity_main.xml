@@ -6,17 +6,17 @@
 
         <variable
             name="temp"
-            type="com.evolve.kotlindatabinding.Temperature" />
+            type="com.evolve.kotlindatabinding.simpledatabinding.Temperature" />
 
         <variable
             name="presenter"
-            type="com.evolve.kotlindatabinding.MainPresenter" />
+            type="com.evolve.kotlindatabinding.simpledatabinding.MainPresenter" />
     </data>
 
     <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.evolve.kotlindatabinding.MainActivity">
+        tools:context="com.evolve.kotlindatabinding.simpledatabinding.MainActivity">
 
         <TextView
             android:id="@+id/txt_location"

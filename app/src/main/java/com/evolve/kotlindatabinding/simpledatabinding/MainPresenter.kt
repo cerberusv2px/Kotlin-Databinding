@@ -1,4 +1,4 @@
-package com.evolve.kotlindatabinding
+package com.evolve.kotlindatabinding.simpledatabinding
 
 import android.content.Context
 

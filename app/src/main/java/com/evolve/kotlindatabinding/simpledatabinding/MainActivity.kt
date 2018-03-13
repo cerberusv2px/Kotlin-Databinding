@@ -1,9 +1,10 @@
-package com.evolve.kotlindatabinding
+package com.evolve.kotlindatabinding.simpledatabinding
 
 import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
+import com.evolve.kotlindatabinding.R
 import com.evolve.kotlindatabinding.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity(), MainContract.View {

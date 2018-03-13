@@ -9,13 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".simpledatabinding.MainActivity" />
+
+        <activity-alias
+            android:name=".Launcher"
+            android:enabled="true"
+            android:targetActivity=".listdatabinding.ListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity-alias>
+
+        <activity android:name=".listdatabinding.ListActivity"></activity>
     </application>
 
 </manifest>
